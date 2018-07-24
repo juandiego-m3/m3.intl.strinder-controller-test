@@ -1,0 +1,31 @@
+{
+  "name": "m3.intl.strinder-controller-test",
+  "version": "1.0.0",
+  "description": "Test Demo for strinder controller",
+  "scripts": {
+    "test": "npm run test_puppeteer & npm run test_cypress & npm run test_cafe & test_cucumber",
+    "test_cucumber": "cucumber-js ./cucumber",
+    "test_puppeteer": "jest",
+    "test_cypress": "./node_modules/.bin/cypress run",
+    "test_cafe": "testcafe chrome:headless ./testcafe/search.js",
+    "test_cypress_flashy": "./node_modules/.bin/cypress open",
+    "test_cafe_flashy": "testcafe chrome ./testcafe/search.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.2.0",
+    "babel-preset-env": "^1.7.0",
+    "cypress": "^3.0.1",
+    "faker": "^4.1.0",
+    "jest": "^23.2.0",
+    "npm": "^6.2.0",
+    "puppeteer": "^1.5.0",
+    "testcafe": "^0.20.4"
+  },
+  "jest": {
+    "testRegex": "/puppeteer/test.js"
+  },
+  "devDependencies": {
+    "cucumber": "^4.2.1"
+  }
+}
