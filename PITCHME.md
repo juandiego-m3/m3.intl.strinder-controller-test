@@ -267,8 +267,10 @@ Cons
 ---
 
 ## Cucumber
-
+![cucumber]
 BBD tool to use Gherkin language
+
+[cucumber]:https://crossbrowsertesting.com/crossbrowsertesting/media/images/integrations/cucumber-logo.svg?ext=.svg
 
 ---
 
@@ -305,8 +307,9 @@ Write some test
 
 ---
 Strongs
+- Live documentation of requirements. Better input and ouptut
 - Decoupling
-- Collaborative
+- Collaborative. Ready for QA
 - Technology independent
 - Reusing Actions
 ---
